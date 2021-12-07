@@ -8,7 +8,7 @@ const DEBOUNCE_DELAY = 300;
 
 const cardContainer = document.querySelector('.country-info');
 const listContainer = document.querySelector('.country-list');
-const inputEl = document.querySelector('input#search-box');
+const inputEl = document.querySelector('#search-box');
 
 inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
